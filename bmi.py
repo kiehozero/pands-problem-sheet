@@ -1,6 +1,6 @@
-weight = int( input( "Enter your weight(kg): " ) )
+weight = int ( input(  "Enter your weight(kg): " ) )
 
-height = int( input( "Enter your height(cm): " ) )
+height = int ( input ( "Enter your height(cm): " ) )
 
 msg = "Your BMI is {}. BMI is the square of your height in metres, divided by your weight in kilograms."
 
