@@ -1,4 +1,4 @@
-weight = int ( input(  "Enter your weight(kg): " ) )
+weight = int ( input ( "Enter your weight(kg): " ) )
 
 height = int ( input ( "Enter your height(cm): " ) )
 

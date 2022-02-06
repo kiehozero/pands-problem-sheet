@@ -6,8 +6,8 @@
 # determined the start point of the function by calculating the length of the string as inputLen and setting
 # the end point as zero. I also initially set this as 1 but it then skipped the final 'h'.
 
-userInput = input("Please enter a sentence: ")
-inputLen = len(userInput)
-slicer = slice(inputLen, 0, -2)
+userInput = input ( "Please enter a sentence: " )
+inputLen = len ( userInput )
+slicer = slice ( inputLen, 0, -2 )
 
-print(userInput[slicer])
+print( userInput[slicer] )
