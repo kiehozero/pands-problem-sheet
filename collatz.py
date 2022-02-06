@@ -32,4 +32,3 @@ while numerator != 1 :
         enteredNums.append ( result )
         print ( enteredNums )
         numerator = result
-print ( enteredNums )
