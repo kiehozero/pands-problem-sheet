@@ -15,7 +15,7 @@ The output their BMI (You may need to look up how this is calculated);
 Working notes: I couldn't get the [::-1] syntax that W3 was giving me to work without also defining a function, so I've determined the start point of the function by calculating the length of the string as inputLen and setting the end point as zero. I also initially set this as 1 but it then skipped the final character.
 
 ## Week 4
-- Task:
+- Task: Write a program that asks the user to input any positive integer and outputs the successive values of the following calculation. At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one. Have the program end if the current value is one.
 - File submitted: 
 - Solution sources:
 - Working notes:
