@@ -21,7 +21,7 @@ Working notes: I couldn't get the [::-1] syntax that W3 was giving me to work wi
 - Working notes: The first problem I encountered as usual was not ensuring that entries were integers. I then had a couple of phases of moving the append and the next input in and out of various parts of the loop. I also misunderstood the original request that the user should input the new number at each stage rather than calculating everything from an initial submission. After getting a horrific infinite loop on the second try (see commit history), I realised that I needed to define the output as the next input, as well as adding the original user submission to the list, so I swapped the first two lines of code around and removed the final lines of code that repeated the number 1 being appended. After Googling for a solution to printing the items of a list separately but on the same line instead of all within square brackets, I used the asterisk as outlined in the DataScienceParichay link (heading 'Using * operator to unpack the list') above.
 
 ## Week 5
-- Task:
+- Task: Write a program that outputs whether or not today is a weekday.
 - File submitted: 
 - Solution sources:
 - Working notes:
