@@ -4,7 +4,7 @@
 # are the person's height in centimetres and weight in kilograms. The output their BMI (You may need to 
 # look up how this is calculated).
 
-# Solution sources: To create this program, the existing lecture notes were sufficient. The exact calcuation 
+# Sources: To create this program, the existing lecture notes were sufficient. The exact calcuation 
 # is taken from the NHS  BMI calculator that is linked in the README.
 
 # Working notes: I amended the tool to include the {:.2f} information at line 7 to restrict decimal places 

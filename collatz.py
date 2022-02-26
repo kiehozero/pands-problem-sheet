@@ -8,7 +8,7 @@
 
 # 10 5 16 8 4 2 1
 
-# Solution sources: the lecture notes were largely sufficient to complete this, this was more of a challenge in actually working out how to convert my brain's 
+# Sources: the lecture notes were largely sufficient to complete this, this was more of a challenge in actually working out how to convert my brain's 
 # logic into working Python. I had to Google how to print individual items as a list, the answer of which was ridiculously simple thanks to DataScienceParichay,
 # and I also somehow needed a reminder of using the append method for lists, which is credited to W3 schools in the README.
 

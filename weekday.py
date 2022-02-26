@@ -3,7 +3,7 @@
 # Task: Write a program that outputs whether or not today is a weekday. You will need to search the web to find how you work out what 
 # day it is.
 
-# Solution sources: A quick check of Google located almost exactly the answer I needed on StackOverflow. Both links are located in the 
+# Sources: A quick check of Google located almost exactly the answer I needed on StackOverflow. Both links are located in the 
 # README file.
 
 # Working notes: This program just required an imported library to function, and is the same as the code found on StackOverflow. I have

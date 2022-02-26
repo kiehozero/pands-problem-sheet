@@ -2,7 +2,7 @@
 
 # Task: Write a program that asks a user to input a string and outputs every second letter in reverse order.
 
-# Solution sources were [W3Schools' pages on how to reverse strings and the slice function. Both links are
+# Sources were [W3Schools' pages on how to reverse strings and the slice function. Both links are
 # in the README file.]
 
 # Working notes: I couldn't get the [::-1] syntax that W3 was giving me to work without also defining a 
