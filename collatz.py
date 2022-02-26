@@ -23,7 +23,7 @@
 numerator = int ( input ( "Please enter a positive number: ") )
 
 # pushes the initial numerator value to the list
-enteredNums = [numerator]
+enteredNums = [ numerator ]
 
 while numerator != 1 :
     # divides any even numbers by 2 and adds them to the list

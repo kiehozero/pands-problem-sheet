@@ -12,6 +12,6 @@
 
 userInput = input ( "Please enter a sentence: " )
 inputLen = len ( userInput )
-slicer = slice ( inputLen, 0, -2 )
+slicer = slice ( inputLen , 0 , -2 )
 
-print( userInput[slicer] )
+print ( userInput [ slicer ] )
