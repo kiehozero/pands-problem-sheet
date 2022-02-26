@@ -22,7 +22,7 @@ Working notes: I couldn't get the [::-1] syntax that W3 was giving me to work wi
 
 ## Week 5
 - Task: Write a program that outputs whether or not today is a weekday.
-- File submitted: 
+- File submitted: [Weekday](/weekday.py)
 - Solution sources:
 - Working notes:
 
