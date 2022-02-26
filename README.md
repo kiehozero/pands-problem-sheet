@@ -24,6 +24,8 @@ Working notes: I couldn't get the [::-1] syntax that W3 was giving me to work wi
 - Task: Write a program that outputs whether or not today is a weekday.
 - File submitted: [Weekday](/weekday.py)
 - Solution sources:
+    [StackOverflow](https://stackoverflow.com/questions/29384696/how-to-find-current-day-is-weekday-or-weekends-in-python)
+    [Python's date library docs](https://docs.python.org/3/library/datetime.html#datetime.date.weekday)
 - Working notes:
 
 ## Week 6
