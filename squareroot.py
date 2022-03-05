@@ -13,7 +13,9 @@
 
 def sqrt ( number ):
 
-    squared = number * 3    
+    x = number
+
+    squared = number * 3
     return ( f"The square root of { number } is approximately { squared }." )
 
 floater = float ( 
