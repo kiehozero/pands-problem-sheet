@@ -33,6 +33,8 @@ Working notes: I couldn't get the [::-1] syntax that W3 was giving me to work wi
 
 - File submitted: [Square Root](/squareroot.py)
 - Sources:
+    [HackerNoon](https://hackernoon.com/calculating-the-square-root-of-a-number-using-the-newton-raphson-method-a-how-to-guide-yr4e32zo)
+    [GeeksForGeeks](https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/)
 - Working notes:
 
 ## Week 7
