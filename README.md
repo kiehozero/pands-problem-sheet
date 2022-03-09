@@ -39,8 +39,8 @@ Working notes: I couldn't get the [::-1] syntax that W3 was giving me to work wi
 - Working notes:
 
 ## Week 7
-- Task:
-- File submitted: 
+- Task: Write a program called plottask.py that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes.
+- File submitted: [Plot Task](plottask.py)
 - Sources:
 - Working notes:
 
