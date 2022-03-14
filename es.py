@@ -5,7 +5,8 @@
 # the filename from an argument on the command line. I have not shown you how to do this, you need 
 # to look it up.
 
-# Sources were
+# Sources were a StackOverflow thread that is documented in the README for the command line entry, while
+# the >>>
 
 # Working Notes: The first part of the solution was bringing in the file name as part of the command,
 # rather than using a user input or hard-coding the filename into the sources. I found a simple solution
@@ -14,6 +15,6 @@
 
 import sys
 
-with open(sys.argv[1],"r") as f:
-    contents = f.read()
-print (contents)
+with open ( sys.argv [ 1 ] , "r" ) as f:
+    contents = f.read ( )
+print ( contents )
