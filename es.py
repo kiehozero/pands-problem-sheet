@@ -7,4 +7,13 @@
 
 # Sources were
 
-# Working Notes:
+# Working Notes: The first part of the solution was bringing in the file name as part of the command,
+# rather than using a user input or hard-coding the filename into the sources. I found a simple solution
+# using the sys.argv command that allowed this, then I just had a to set up a one-line .txt file to test
+# it.
+
+import sys
+
+with open(sys.argv[1],"r") as f:
+    contents = f.read()
+print (contents)
