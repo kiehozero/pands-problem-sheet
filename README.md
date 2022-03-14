@@ -39,25 +39,14 @@ Working notes: I couldn't get the [::-1] syntax that W3 was giving me to work wi
 - Working notes:
 
 ## Week 7
-- Task: Write a program called plottask.py that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes.
-- File submitted: [Plot Task](plottask.py)
+- Task: Write a program that reads in a text file and outputs the number of e's it contains. Think about what is being asked here, document any assumptions you are making. The program should take the filename from an argument on the command line. I have not shown you how to do this, you need to look it up.
+- File submitted: [Es](es.py)
 - Sources:
 - Working notes:
 
 ## Week 8
-- Task:
-- File submitted: 
+- Task: Write a program called plottask.py that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes.
+- File submitted: [Plot Task](plottask.py)
 - Sources:
-- Working notes:
-
-## Week 9
-- Task:
-- File submitted: 
-- Sources:
-- Working notes:
-
-## Week 10
-- Task:
-- File submitted: 
-- Sources:
+    [GeeksForGeeks: Count Occurrences](https://www.geeksforgeeks.org/python-count-occurrences-of-each-word-in-given-text-file-using-dictionary/)
 - Working notes:
