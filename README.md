@@ -26,7 +26,7 @@ Working notes: I couldn't get the [::-1] syntax that W3 was giving me to work wi
 - Sources:
     [StackOverflow](https://stackoverflow.com/questions/29384696/how-to-find-current-day-is-weekday-or-weekends-in-python)
     [Python's date library docs](https://docs.python.org/3/library/datetime.html#datetime.date.weekday)
-- Working notes:
+- Working notes: This program just required an imported library to function, and is the same as the code found on StackOverflow. I have amended the code from datetime.datetime datetime.date as this is what the official Python documentation recommended, although the entry for datetime.datetime suggests that they are functionally identical. I have also amended the output messaging to match what was posted on Moodle, and the name of the input variable.
 
 ## Week 6
 - Task: Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.
@@ -42,9 +42,14 @@ Working notes: I couldn't get the [::-1] syntax that W3 was giving me to work wi
 - Task: Write a program that reads in a text file and outputs the number of e's it contains. Think about what is being asked here, document any assumptions you are making. The program should take the filename from an argument on the command line. I have not shown you how to do this, you need to look it up.
 - File submitted: [Es](es.py)
 - Sources:
-    [GeeksForGeeks: Count Occurrences](https://www.geeksforgeeks.org/python-count-occurrences-of-a-character-in-string/?ref=lbp)
+    [GeeksForGeeks: Count Occurrences](https://www.geeksforgeeks.org/python-count-occurrences-of-a-character-in-string/ )
     [StackOverflow thread on sys.argv](https://stackoverflow.com/questions/7439145/i-want-to-read-in-a-file-from-the-command-line-in-python#7439162)
-- Working notes:
+    [Moby Dick txt file](https://gist.github.com/StevenClontz/4445774)
+- Working notes: The first part of the solution was bringing in the file name as part of the command, rather than using a user input or hard-coding the filename into the sources. I found a simple solution using the sys.argv command that allowed this, then I just had a to set up a one-line .txt file to test it. 
+
+The GeeksForGeeks article above highlighted three methods for counting characters; I used what I considered to be the cleanest method of the three. The first method was a 'for' loop, while the third method required importing a function that achieved the same result as the second method, which is a built-in function, and so seemed the most obvious to use.
+
+I did actually import a 
 
 ## Week 8
 - Task: Write a program called plottask.py that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes.
