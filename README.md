@@ -49,7 +49,7 @@ Working notes: I couldn't get the [::-1] syntax that W3 was giving me to work wi
 
 The GeeksForGeeks article above highlighted three methods for counting characters; I used what I considered to be the cleanest method of the three. The first method was a 'for' loop, while the third method required importing a function that achieved the same result as the second method, which is a built-in function, and so seemed the most obvious to use.
 
-I did actually import a 
+An error that I noticed was when I was testing on the Moby Dick txt file. After running another file, I realised that my program was case-sensitive. Adding the lower() function was enough to get this counting correctly, by storing a lower-case-only version of the file as a separate variable.
 
 ## Week 8
 - Task: Write a program called plottask.py that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes.
