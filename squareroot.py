@@ -11,19 +11,19 @@
 
 # error handling? if number is less than 0, repeat
 
-def sqrt ( number ):
+def sqrt(number):
 
-    x = number
+    x = int(number)
 
-    squared = number * 3
-    return ( f"The square root of { number } is approximately { squared }." )
+    squared = int(number * number)
+    return (f"The square root of {x} is approximately {squared}.")
 
-floater = float ( 
-    input (
+floater = float( 
+    input(
         "Please enter a positive number: "
     )
 )
 
-print (
-     sqrt ( floater )
+print(
+     sqrt(floater)
 )
