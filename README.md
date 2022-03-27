@@ -55,7 +55,9 @@ An error that I noticed was when I was testing on the Moby Dick txt file. After 
 - Task: Write a program called plottask.py that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes.
 - File submitted: [Plot Task](plottask.py)
 - Sources: I was able to complete the bulk of this task using the lecture slides and the accompanying further reading material. I did some extra research into more advanced styling options, namely:
-    The W3Schools tutorial on [Matplotlib markers](https://www.w3schools.com/python/matplotlib_markers.asp). I also used the subsequent links in that tutorial for lines, labels and grids.
-    The NumPy documentation for the [append function](https://numpy.org/doc/stable/reference/generated/numpy.append.html)
+    The W3Schools tutorial on [Matplotlib markers](https://www.w3schools.com/python/matplotlib_markers.asp). I also used the subsequent links in that tutorial for lines and grids;
+    The W3Schools tutorial on [Matplotlib titles](https://www.w3schools.com/python/matplotlib_labels.asp);
+    The NumPy documentation for the [append function](https://numpy.org/doc/stable/reference/generated/numpy.append.html), which I ultimately could not get to work;
+    The Matplotlib documentation for the [legend property](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.legend.html).
 
 - Working notes:
