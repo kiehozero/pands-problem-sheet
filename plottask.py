@@ -4,8 +4,11 @@
 
 # Sources: I was able to complete the bulk of this task using the lecture slides and the accompanying further reading material. I did some extra research 
 # into more advanced styling options, namely:
-#    - W3Schools' material on Matplotlib markers, lines, grids and labels
-#    - The NumPy documentation for that library's append function, which I ultimately couldn't get to work.
+
+#    - W3Schools' material on Matplotlib markers, lines, grids and labels;
+#    - The NumPy documentation for that library's append function, which I ultimately couldn't get to work;
+#    - Matplotlib's documentation for some more extra styling options.
+
 # All links are contained in the README.
 
 # Working Notes: The actual logic of this was quite simple, I knew I needed to loop through a range and produce three separate arrays. I initially tried

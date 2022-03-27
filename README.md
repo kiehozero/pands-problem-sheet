@@ -59,5 +59,4 @@ An error that I noticed was when I was testing on the Moby Dick txt file. After 
     The W3Schools tutorial on [Matplotlib titles](https://www.w3schools.com/python/matplotlib_labels.asp);
     The NumPy documentation for the [append function](https://numpy.org/doc/stable/reference/generated/numpy.append.html), which I ultimately could not get to work;
     The Matplotlib documentation for the [legend property](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.legend.html).
-
-- Working notes:
+- Working notes: The actual logic of this was quite simple, I knew I needed to loop through a range and produce three separate arrays. I initially tried to use a NumPy array, but this doesn't seem to work with the standard append command. I researched the NumPy append command, which produces a new array for reasons that I don't yet understand, and then experimented with the insert and concatenate commands from the same library, all of which I could only generate more errors. Instead I changed each array back to a standard list and used the original append command. After that it was a matter of experimenting with various line, grid, label and marker styles.
