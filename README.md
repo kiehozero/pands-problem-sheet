@@ -54,6 +54,7 @@ An error that I noticed was when I was testing on the Moby Dick txt file. After 
 ## Week 8
 - Task: Write a program called plottask.py that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes.
 - File submitted: [Plot Task](plottask.py)
-- Sources:
+- Sources: I was able to complete the bulk of this task using the lecture slides and the accompanying further reading material. I did some extra research into more advanced styling options, namely:
+    [Matplotlib markers](https://www.w3schools.com/python/matplotlib_markers.asp)
 
 - Working notes:
