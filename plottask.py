@@ -35,7 +35,7 @@ for i in range:
 # ls indicates the line style, with - representing a solid (default) line, : a dotted line, and -- a dashed line.
 # 
 plt.plot(xpoints,label="Original Values", color="DodgerBlue", ls="-", marker="o")
-plt.plot(ypoints,label="Squared Values", color="GoldenRod", ls=":", marker="D")
+plt.plot(ypoints,label="Squared Values", color="GoldenRod", ls="-.", marker="D")
 plt.plot(zpoints,label="Cubed Values", color="FireBrick", ls="--", marker="^")
 
 # the fontdict parameter allows for the setting of uniform or divergent font properties across different elements
