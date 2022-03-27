@@ -4,8 +4,8 @@
 
 # Sources: I was able to complete the bulk of this task using the lecture slides and the accompanying further reading material. I did some extra research 
 # into more advanced styling options, namely:
-#    - 
-#    - W3Schools' material on Matplotlib markers
+#    - W3Schools' material on Matplotlib markers, lines and labels
+#    - The NumPy documentation for that library's append function.
 # All links are contained in the README.
 
 # Working Notes: 
@@ -14,18 +14,21 @@ import matplotlib.pyplot as plt
 
 range = [0,1,2,3,4]
 
+# one range each for the three arrays required
 xpoints = []
 ypoints = []
 zpoints = []
 
+# loops through range and adds the result of each operation to a separate array
 for i in range:
     xpoints.append(i)
     ypoints.append(i*i)
     zpoints.append(i*i*i)
 
-plt.plot(xpoints,label="function: f(x)=x", color="blue", marker="^")
-plt.plot(ypoints,label="function: g(x)=x*x", color="red", marker="x")
-plt.plot(zpoints,label="function: h(x)=x*x*x", color="green", marker="D")
+# ls indicates the line style, with - representing a solid (default) line, : a dotted line, and -- a dashed line.
+plt.plot(xpoints,label="function: f(x)=x", color="blue", ls="-", marker="^")
+plt.plot(ypoints,label="function: g(x)=x*x", color="red", ls=":", marker="x")
+plt.plot(zpoints,label="function: h(x)=x*x*x", ls="--", color="green", marker="D")
 plt.legend()
 
 plt.show()
