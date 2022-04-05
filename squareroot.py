@@ -1,6 +1,6 @@
-# Explanation: Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.
+# Explanation: A program that estimates the square root of a given number
 
-# Task:
+# Task: Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.
 
 # Sources: The README contains likes from HackerNoon and GeeksForGeeks which were good introductions on the topic.
 
