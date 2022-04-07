@@ -36,6 +36,7 @@ Working notes: I couldn't get the [::-1] syntax that W3 was giving me to work wi
     [GeeksForGeeks: Square Roots](https://www.geeksforgeeks.org/how-to-calculate-a-square-root/)
     [HackerNoon](https://hackernoon.com/calculating-the-square-root-of-a-number-using-the-newton-raphson-method-a-how-to-guide-yr4e32zo)
     [GeeksForGeeks: Newton's Method](https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/)
+    [RealPython Guide to Rounding](https://realpython.com/python-rounding/#rounding-down)
 - Working notes:
 
 ## Week 7
