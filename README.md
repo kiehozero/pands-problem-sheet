@@ -36,8 +36,8 @@ Working notes: I couldn't get the [::-1] syntax that W3 was giving me to work wi
     [GeeksForGeeks: Square Roots](https://www.geeksforgeeks.org/how-to-calculate-a-square-root/)
     [HackerNoon](https://hackernoon.com/calculating-the-square-root-of-a-number-using-the-newton-raphson-method-a-how-to-guide-yr4e32zo)
     [GeeksForGeeks: Newton's Method](https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/)
-    [RealPython Guide to Rounding](https://realpython.com/python-rounding/#rounding-down)
-- Working notes:
+    [RealPython Guide to Rounding Down](https://realpython.com/python-rounding/#rounding-down)
+- Working notes: I traced out the basic skeleton of this program as a function which simply returns the input and output values inside an f-string, the real challenge here was actually working out how to do the mathematical part of the task as an approximation of how a person would do this using mental arithmetic, rather than calculating the exact number. The code below is pretty much an exact copy of what is found at the GeeksForGeeks link in the README, I've just changed the name of variables to make it easier to read as a broke down the code to understand what each  line is doing, and I've also removed a counter that was redundant for this task. I then used the RealPython link in the README to work out how to round to a single decimal place, after first trying to use string formatting and the round function, both of which returned 3.9 instead of 3.8. I finally changed the tolerance back to 0.1, as the original GeeksForGeeks link had one, and I got 3.8. I'm sure there is a much easier and better way of doing this, such as keeping the square-root and the rounding functions separate, but I am officially tapping out on this problem.
 
 ## Week 7
 - Task: Write a program that reads in a text file and outputs the number of e's it contains. Think about what is being asked here, document any assumptions you are making. The program should take the filename from an argument on the command line. I have not shown you how to do this, you need to look it up.
