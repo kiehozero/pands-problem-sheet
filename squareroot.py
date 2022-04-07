@@ -11,12 +11,16 @@
 # I've just changed the name of variables to make it easier to read as a broke down the code to understand what each 
 # line is doing, and I've also removed a counter that was redundant for this task. I then used the RealPython link in
 # the README to work out how to round to a single decimal place, after first trying to use string formatting and the
-# round function, both of which returned 3.9 instead of 3.8.
+# round function, both of which returned 3.9 instead of 3.8. I finally changed the tolerance back to 0.1, as the 
+# original GeeksForGeeks link had one, and I got 3.8. I'm sure there is a much easier and better way of doing this,
+# but I am officially tapping out on this problem.
+
+from math import floor
 
 def sqrt(number):
 
     guess = number
-    tolerance = 1
+    tolerance = 0.1
  
     while (tolerance) :
         # The original number is divided by the current guess, and the result added to that guess and halved
@@ -29,7 +33,13 @@ def sqrt(number):
         # Otherwise, the root is updated to the current output of guess, to begin the loop again at line 27
         guess = root
 
-    return f"The square root of {number} is approximately {round(root,1)}."
+    # this part is taken from the Rounding Down section of the Real Python link in the README, where it is defined
+    # as a separate function, their logic is simply to shift the decimal place across (line 38) and then back 
+    # again (line 39)
+    
+    multiplier = 10 ** 1
+    out = floor(root * multiplier) / multiplier
+    return f"The square root of {number} is approximately {out}."
 
 floater = float( 
     input(
